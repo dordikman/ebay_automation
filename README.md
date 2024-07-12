@@ -25,8 +25,12 @@
 
 5. Use the terminal to run the tests:
    ...
-   running in default browser: pytest tests/test_search.py 
-   running in headed mode: pytest tests/test_search.py --headed
-   running in other browser: pytest tests/test_search.py --browser chromium/firefox....
-   running in webkit: pytest tests/test_search.py --browser webkit
-   running in parallel: pytest tests/test_search.py --browser chromium --browser firefox --browser webkit 
+6.running in default browser: pytest tests/test_search.py
+   
+7.running in headed mode: pytest tests/test_search.py --headed
+
+8.running in other browser: pytest tests/test_search.py --browser chromium/firefox....
+
+9.running in webkit: pytest tests/test_search.py --browser webkit
+
+10.running in parallel: pytest tests/test_search.py --browser chromium --browser firefox --browser webkit 
