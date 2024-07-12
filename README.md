@@ -22,3 +22,11 @@
     ```
     pip install -r requirements.txt
     ```
+
+5. Use the terminal to run the tests:
+   ...
+   running in default browser: pytest tests/test_search.py 
+   running in headed mode: pytest tests/test_search.py --headed
+   running in other browser: pytest tests/test_search.py --browser chromium/firefox....
+   running in webkit: pytest tests/test_search.py --browser webkit
+   running in parallel: pytest tests/test_search.py --browser chromium --browser firefox --browser webkit 
